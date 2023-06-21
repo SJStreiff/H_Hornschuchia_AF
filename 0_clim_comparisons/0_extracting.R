@@ -1,15 +1,17 @@
 ####################################################################################################
-#  2023-04-25 sjrs 
+#  2023-04-25
+#  Serafin J R Streiff
+#  serafin.streiff_at_ird.fr
 # HORNSCHUCHIA and the Atlantic Forest
+# 
 # 
 # extract climate for all occurrence records
 ####################################################################################################
 rm(list = ls())
 
 # INIT
-wd <- '~/Sync/1_Annonaceae/H_Hornschuchia_AF/0_clim_comparisons/' # the working dir
-dat_file <- '~/Sync/1_Annonaceae/H_Hornschuchia_AF/Y_data/Hornschuchia_Bocagea_Trigynaea_occurence.csv'
-#dat_file <- '~/Sync/1_Annonaceae/8_SDM/1_data/Bocageeae_records_clean.csv'
+wd <- './0_clim_comparisons/' # the working dir
+dat_file <- './Y_data/Hornschuchia_Bocagea_Trigynaea_occurence.csv'
 pl <- c('ggplot2', 'raster', 'terra')
 sapply(pl, require, character.only=TRUE)
 source('~/Sync/serafins_functions.R')

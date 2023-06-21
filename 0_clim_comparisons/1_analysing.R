@@ -1,5 +1,7 @@
 ####################################################################################################
-#  2023-05-03 sjrs 
+#  2023-05-03 
+# Serafin J R Streiff
+# serafin.streiff_at_ird.fr 
 # HORNSCHUCHIA and the Atlantic Forest
 # 
 # extract climate and do some comparisons between species
